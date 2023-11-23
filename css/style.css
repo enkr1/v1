@@ -945,7 +945,7 @@ span {
         top: .6em;
         right: 0;
         color: $theme-font-color;
-        opacity: 0;            
+        opacity: 0;
         content: "Menu Toggle";
         white-space: nowrap;
         transition: all .4s;
@@ -1402,11 +1402,11 @@ li {
   -webkit-box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.044), 0 6.7px 5.3px rgba(0, 0, 0, 0.058), 0 12.5px 10px rgba(0, 0, 0, 0.07), 0 22.3px 17.9px rgba(0, 0, 0, 0.082), 0 41.8px 33.4px rgba(0, 0, 0, 0.096), 0 100px 80px rgba(0, 0, 0, 0.22);
           box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.044), 0 6.7px 5.3px rgba(0, 0, 0, 0.058), 0 12.5px 10px rgba(0, 0, 0, 0.07), 0 22.3px 17.9px rgba(0, 0, 0, 0.082), 0 41.8px 33.4px rgba(0, 0, 0, 0.096), 0 100px 80px rgba(0, 0, 0, 0.22);
   /* Neumorphism */
-        /* -webkit-box-shadow: 
+        /* -webkit-box-shadow:
     0px 0px 10px 0px var(--pri-color);
--moz-box-shadow: 
+-moz-box-shadow:
     0px 0px 10px 0px var(--pri-color);
-box-shadow: 
+box-shadow:
     0px 0px 10px 0px var(--pri-color); */
 }
 @media all and (max-width: 1024px) {
@@ -1713,19 +1713,19 @@ box-shadow:
     color: $theme-light-color;
 }
 */
-/*Start Specialisation*/
+/*Start specialization*/
 @media only screen and (max-width: 1024px) {
-  .specialisation {
+  .specialization {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
 }
 @media only screen and (min-width: 992px) {
-  .specialisation {
+  .specialization {
     overflow: hidden;
   }
-  .specialisation .section-heading {
+  .specialization .section-heading {
     position: absolute;
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -1733,31 +1733,31 @@ box-shadow:
             user-select: none;
     z-index: -1;
   }
-  .specialisation .section-heading h1 {
+  .specialization .section-heading h1 {
     font-size: 28rem;
     color: rgba(255, 255, 255, 0.15);
     -webkit-transform: translate(0.6em, -1em);
             transform: translate(0.6em, -1em);
   }
-  .specialisation .section-heading h1::after {
-    content: "specialisation";
+  .specialization .section-heading h1::after {
+    content: "specialization";
     position: absolute;
     -webkit-transform: translate(0, 97.5vh);
             transform: translate(0, 97.5vh);
     left: -3em;
   }
-  .specialisation .section-heading h6 {
+  .specialization .section-heading h6 {
     display: none;
   }
 }
 @media only screen and (min-width: 992px) {
-  .specialisation .skills-container {
+  .specialization .skills-container {
     height: 100vh;
     -webkit-transform: translate(0, 30vh);
             transform: translate(0, 30vh);
   }
 }
-.specialisation .icon-container {
+.specialization .icon-container {
   width: 14rem;
   height: 14rem;
   border: 2px solid #9796f0;
@@ -1771,22 +1771,22 @@ box-shadow:
           box-shadow: 0px 0px 22px 0px #dbcde4;
 }
 @media all and (max-width: 992px) {
-  .specialisation .icon-container {
+  .specialization .icon-container {
     font-size: 3.5rem;
   }
 }
-.specialisation .icon-container i {
+.specialization .icon-container i {
   position: relative;
   color: #dbcde4;
   font-size: 5rem;
   margin: auto;
 }
 @media all and (max-width: 768px) {
-  .specialisation .icon-container i {
+  .specialization .icon-container i {
     font-size: 4.5rem;
   }
 }
-.specialisation .icon-container::after {
+.specialization .icon-container::after {
   position: absolute;
   content: '';
   width: 13.1rem;
@@ -1801,14 +1801,14 @@ box-shadow:
           box-shadow: 0px 0px 22px 0px #dbcde4;
   opacity: 0.8;
 }
-.specialisation .my-skills {
+.specialization .my-skills {
   /* https://hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/ */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 3rem;
   text-align: center;
 }
-.specialisation .my-skills .skill {
+.specialization .my-skills .skill {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1824,7 +1824,7 @@ box-shadow:
           align-items: center;
   padding: 2rem;
 }
-.specialisation .my-skills .skill h1 {
+.specialization .my-skills .skill h1 {
   font-size: 2rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -1833,7 +1833,7 @@ box-shadow:
   color: #dbcde4;
 }
 
-/*End Specialisation*/
+/*End specialization*/
 /*Start timeline*/
 .experience {
   height: 100vh;

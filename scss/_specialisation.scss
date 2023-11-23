@@ -1,5 +1,5 @@
-/*Start Specialisation*/
-.specialisation {
+/*Start specialization*/
+.specialization {
     // ...
 
     @media only screen and (max-width: $screen_md_1) {
@@ -21,7 +21,7 @@
                 transform: translate(.6em, -1em);
 
                 &::after {
-                    content: "specialisation";
+                    content: "specialization";
                     position: absolute;
                     // Using vh as the bottom one might
                     // mess up if the screen height changes
@@ -114,4 +114,4 @@
     }
 }
 
-/*End Specialisation*/
+/*End specialization*/
